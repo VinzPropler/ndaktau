@@ -13,10 +13,6 @@ Pacotes = [
  codecs.decode('021efd40', 'hex_codec'),
  codecs.decode('081e7eda', 'hex_codec')]
 print("""
-╔══╗╔═╦═╗╔╗╔╗╔╦╗╔══╗╔══╗
-╚║║╝║║║║║╚╗╔╝║║║╚║║╝║═╦╝
-╔║║╗║║║║║╔╝╚╗║║║╔║║╗║╔╝─
-╚══╝╚╩═╩╝╚╝╚╝╚═╝╚══╝╚╝──
 Code By Lexsh1n X Xuif
 Attack By Xuif X Lexsh1n
 """)
