@@ -17,7 +17,6 @@ Code By Lexsh1n X Xuif
 Attack By Xuif X Lexsh1n
 """)
 print(" Attack To Ip %s Port%s             "% (orgip, port) 
-class MyThread(threading.Thread):
 
     def run(self):
         while True:
