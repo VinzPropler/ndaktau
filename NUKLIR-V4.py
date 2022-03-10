@@ -56,7 +56,7 @@ os.system("clear")
 ip = str(input("\u001b[37m[ + ] ENTER | HOST/IP :\u001b[35m    "))
 port = int(input("\u001b[37m[ + ] ENTER | PORT:\u001b[35m     "))
 choice = str(input("\u001b[37m[ + ] ENTER | UDP(y/n) :\u001b[35m  "))
-times = int(input("\u001b[37m[ + ] CONNECTIONS :\u001b[35m  "))
+times = int(input("\u001b[37m[ + ] ENTER | CONNECTIONS :\u001b[35m  "))
 threads = int(input("\u001b[37m[ + ] ENTER | THREADS :\u001b[35m  "))
 def run():
 	data = random._urandom(1024)
